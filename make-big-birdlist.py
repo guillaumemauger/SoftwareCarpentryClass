@@ -52,6 +52,3 @@ for i in range(10000):
     w.writerow(row)
 fp.close() # important esp for writing files ("needs to be flushed to disk")
 
-
-
-
