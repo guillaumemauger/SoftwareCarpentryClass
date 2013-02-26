@@ -13,12 +13,10 @@ Heron
 Stork
 Shoebill
 Vulture
-Arctic Tern
 Bald Eagle""".splitlines()
 
 states = """Kentucky
 Missouri
-California
 Kansas
 Maine
 Michigan
@@ -47,9 +45,11 @@ import csv
 fp = file('long-birds.csv', 'wb')
 w = csv.writer(fp) # write a csv ... could change to space delimited using delimiter=" "
 
-for i in range(10101):
+for i in range(10000):
     row = generate_random_observation()
     w.writerow(row)
 fp.close() # important esp for writing files ("needs to be flushed to disk")
+
+
 
 
