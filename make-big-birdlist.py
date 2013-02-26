@@ -13,10 +13,12 @@ Heron
 Stork
 Shoebill
 Vulture
+Arctic Tern
 Bald Eagle""".splitlines()
 
 states = """Kentucky
 Missouri
+California
 Kansas
 Maine
 Michigan
