@@ -1,4 +1,7 @@
 
+# Author: Titus Brown
+# Date: 26 Feb 2013
+
 # triple quoting allows multiple lines to go in one quote
 birdnames = """\
 Common Teal
